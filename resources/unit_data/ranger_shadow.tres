@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="UnitData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/UnitData.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+key = "ranger_shadow"
+display_name = "影弦"
+description = "低冷却投射，升级后能快速清掉追兵。"
+unit_class = 2
+star_tier = 1
+color = Color(0.36, 0.95, 0.62, 1)
+sprite_path = "res://assets/generated/unit_shadow.png"
+max_hp = 78.0
+damage = 15.0
+attack_range = 185.0
+attack_cooldown = 0.55
+bullet_type = 2
+bullet_speed = 500.0
+bullet_pierce = 1
+purchase_cost = 3
+upgrade_damage_scale = 1.30
+upgrade_hp_scale = 1.16
+upgrade_cooldown_scale = 0.82

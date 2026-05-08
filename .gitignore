@@ -1,0 +1,40 @@
+# Godot local/editor cache
+.godot/
+.import/
+
+# Exported builds and packages
+Packages/
+*.pck
+*.exe
+*.zip
+
+# Logs and temporary validation output
+*.log
+logs/
+user://
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor and IDE files
+.vscode/
+.idea/
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Mono/C# build output if the project later enables C#
+.mono/
+bin/
+obj/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+~$*

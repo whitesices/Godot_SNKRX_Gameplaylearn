@@ -1,0 +1,4 @@
+interface:
+  display_name: "Godot Snake Roguelite Builder"
+  short_description: "Build SNKRX-inspired Godot snake roguelite prototypes"
+  default_prompt: "Use this skill to design, implement, test, package, and document a Godot snake roguelite prototype with original assets."

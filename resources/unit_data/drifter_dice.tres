@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="UnitData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/UnitData.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+key = "drifter_dice"
+display_name = "骰客"
+description = "每次攻击随机选择投射、爆炸或近战斩击。"
+unit_class = 3
+star_tier = 1
+color = Color(0.76, 0.34, 1.0, 1)
+sprite_path = "res://assets/generated/unit_dice.png"
+max_hp = 88.0
+damage = 21.0
+attack_range = 170.0
+attack_cooldown = 0.86
+bullet_type = 6
+bullet_speed = 390.0
+bullet_pierce = 1
+purchase_cost = 3
+upgrade_damage_scale = 1.36
+upgrade_hp_scale = 1.18
+upgrade_cooldown_scale = 0.88

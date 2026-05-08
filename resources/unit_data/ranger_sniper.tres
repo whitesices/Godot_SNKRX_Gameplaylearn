@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="UnitData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/UnitData.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+key = "ranger_sniper"
+display_name = "远星"
+description = "长射程高伤害，适合在蛇尾持续点杀精英。"
+unit_class = 2
+star_tier = 2
+color = Color(0.28, 0.92, 0.36, 1)
+sprite_path = "res://assets/generated/unit_sniper.png"
+max_hp = 82.0
+damage = 34.0
+attack_range = 265.0
+attack_cooldown = 1.36
+bullet_type = 2
+bullet_speed = 560.0
+bullet_pierce = 1
+purchase_cost = 4
+upgrade_damage_scale = 1.46
+upgrade_hp_scale = 1.14
+upgrade_cooldown_scale = 0.88

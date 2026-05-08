@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="UnitData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/UnitData.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+key = "warrior_berserker"
+display_name = "裂斧"
+description = "短距离范围劈砍，适合被敌群包围时打开缺口。"
+unit_class = 0
+star_tier = 2
+color = Color(0.96, 0.25, 0.12, 1)
+sprite_path = "res://assets/generated/unit_berserker.png"
+max_hp = 118.0
+damage = 30.0
+attack_range = 74.0
+attack_cooldown = 1.05
+bullet_type = 1
+bullet_speed = 360.0
+bullet_pierce = 1
+purchase_cost = 4
+upgrade_damage_scale = 1.42
+upgrade_hp_scale = 1.22
+upgrade_cooldown_scale = 0.88

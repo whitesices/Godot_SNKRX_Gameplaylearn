@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="UnitData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/UnitData.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+key = "drifter_clover"
+display_name = "四叶"
+description = "幸运流浪者，输出较低但更容易触发流浪者羁绊节奏。"
+unit_class = 3
+star_tier = 2
+color = Color(0.64, 0.28, 1.0, 1)
+sprite_path = "res://assets/generated/unit_clover.png"
+max_hp = 94.0
+damage = 18.0
+attack_range = 155.0
+attack_cooldown = 0.74
+bullet_type = 6
+bullet_speed = 410.0
+bullet_pierce = 1
+purchase_cost = 4
+upgrade_damage_scale = 1.32
+upgrade_hp_scale = 1.24
+upgrade_cooldown_scale = 0.86

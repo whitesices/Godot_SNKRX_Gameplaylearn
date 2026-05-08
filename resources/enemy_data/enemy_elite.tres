@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="EnemyData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/EnemyData.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+display_name = "棱刺精英"
+enemy_type = 1
+color = Color(1.0, 0.34, 0.08, 1)
+sprite_path = "res://assets/generated/enemy_elite.png"
+max_hp = 180.0
+move_speed = 72.0
+contact_damage = 18.0
+gold_reward = 5
+score_reward = 180
+warning_time = 1.0

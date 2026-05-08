@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="UnitData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/UnitData.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+key = "engineer_demoman"
+display_name = "熔雷"
+description = "发射慢速炸弹，命中后造成范围爆炸。"
+unit_class = 4
+star_tier = 2
+color = Color(1.0, 0.45, 0.08, 1)
+sprite_path = "res://assets/generated/unit_demoman.png"
+max_hp = 96.0
+damage = 32.0
+attack_range = 165.0
+attack_cooldown = 1.42
+bullet_type = 4
+bullet_speed = 250.0
+bullet_pierce = 1
+purchase_cost = 4
+upgrade_damage_scale = 1.44
+upgrade_hp_scale = 1.20
+upgrade_cooldown_scale = 0.90

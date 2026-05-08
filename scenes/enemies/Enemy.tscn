@@ -1,0 +1,31 @@
+[gd_scene load_steps=5 format=3 uid="uid://cn7q2w4p8r6xme"]
+
+[ext_resource type="Script" uid="uid://cmaxggt3w18iu" path="res://scripts/systems/Enemy.gd" id="1"]
+[ext_resource type="Script" uid="uid://d3760sagfdm7e" path="res://scripts/components/HealthComponent.gd" id="2"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_enemy"]
+radius = 14.0
+
+[node name="Enemy" type="CharacterBody2D"]
+script = ExtResource("1")
+collision_layer = 4
+collision_mask = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_enemy")
+
+[node name="BodySprite" type="Sprite2D" parent="."]
+scale = Vector2(0.64, 0.64)
+modulate = Color(0.8, 0.1, 0.1, 1)
+
+[node name="HealthComponent" type="Node" parent="."]
+script = ExtResource("2")
+max_hp = 100.0
+invincibility_duration = 0.0
+
+[node name="Area2D" type="Area2D" parent="."]
+collision_layer = 4
+collision_mask = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+shape = SubResource("CircleShape2D_enemy")

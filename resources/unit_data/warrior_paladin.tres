@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="UnitData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/UnitData.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+key = "warrior_paladin"
+display_name = "圣盾"
+description = "可靠的近战前排，升级后更能抗住接触伤害。"
+unit_class = 0
+star_tier = 1
+color = Color(0.92, 0.68, 0.22, 1)
+sprite_path = "res://assets/generated/unit_paladin.png"
+max_hp = 135.0
+damage = 22.0
+attack_range = 62.0
+attack_cooldown = 0.82
+bullet_type = 0
+bullet_speed = 360.0
+bullet_pierce = 1
+purchase_cost = 3
+upgrade_damage_scale = 1.28
+upgrade_hp_scale = 1.38
+upgrade_cooldown_scale = 0.92

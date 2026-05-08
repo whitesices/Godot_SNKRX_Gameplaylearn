@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="UnitData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/UnitData.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+key = "mage_frost"
+display_name = "霜晶"
+description = "稳定远程单体输出，升级后穿透数更高。"
+unit_class = 1
+star_tier = 1
+color = Color(0.35, 0.85, 1.0, 1)
+sprite_path = "res://assets/generated/unit_frost.png"
+max_hp = 76.0
+damage = 19.0
+attack_range = 205.0
+attack_cooldown = 0.94
+bullet_type = 2
+bullet_speed = 430.0
+bullet_pierce = 1
+purchase_cost = 3
+upgrade_damage_scale = 1.34
+upgrade_hp_scale = 1.18
+upgrade_cooldown_scale = 0.86

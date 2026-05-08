@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="EnemyData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/EnemyData.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+display_name = "追猎体"
+enemy_type = 0
+color = Color(0.9, 0.16, 0.18, 1)
+sprite_path = "res://assets/generated/enemy_normal.png"
+max_hp = 42.0
+move_speed = 92.0
+contact_damage = 8.0
+gold_reward = 1
+score_reward = 40
+warning_time = 1.0

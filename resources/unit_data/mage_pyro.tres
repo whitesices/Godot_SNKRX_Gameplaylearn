@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="UnitData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/UnitData.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+key = "mage_pyro"
+display_name = "余烬术士"
+description = "发射爆裂火球，对小范围敌人造成溅射伤害。"
+unit_class = 1
+star_tier = 2
+color = Color(1.0, 0.36, 0.12, 1)
+sprite_path = "res://assets/generated/unit_pyro.png"
+max_hp = 72.0
+damage = 26.0
+attack_range = 190.0
+attack_cooldown = 1.28
+bullet_type = 3
+bullet_speed = 330.0
+bullet_pierce = 1
+purchase_cost = 4
+upgrade_damage_scale = 1.48
+upgrade_hp_scale = 1.15
+upgrade_cooldown_scale = 0.90
